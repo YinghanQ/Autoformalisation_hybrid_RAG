@@ -1,0 +1,5 @@
+[default]
+    data_path='data'
+    output_path='data/outputs'
+    embeddings_path='data/embeddings'
+

@@ -1,0 +1,43 @@
+injective_function	Supertype	function
+addmonoidhom	Supertype	function
+negation_of_a_matrix	Differentia quality	each_of_its_entries
+isdiag	Supertype	matrix
+matrix_multiplication	Differentia event	summing_the_products_of_their_rows_and_columns
+vector	Differentia quality	numbers
+symmetric_matrix	Supertype	matrix
+matrix_multiplication	Supertype	matrix
+diagonal	Differentia quality	numbers
+absolutevalue	Differentia quality	elements_in_a_ring
+zero_matrix	Supertype	matrix
+transpose_of_a_matrix	Differentia event	flipping
+dotproduct	Supertype	way
+addcommsemigroup	Differentia quality	in_any_order
+fintype	Supertype	type
+blockdiagonal'	Differentia event	placing_given_matrices_along_the_diagonal_and_zeros_elsewhere
+zero_matrix	Supertype	matrix
+matrix	Differentia quality	grid-like
+matrix-vector_multiplication	Differentia event	applying_a_matrix_to_a_vector
+matrix_addition	Differentia event	adding_their_corresponding_elements
+isdiag	Differentia event	are_zero
+addcommsemigroup	Supertype	structure
+kernel_of_a_linear_map	Differentia event	applied_to_a_linear_transformation
+non-negative_vector	Differentia quality	no_negative_elements
+addmonoidhom	Differentia quality	between_two_algebraic_structures
+subtractionmonoid	Supertype	set
+fintype.card	Differentia quality	number_of_elements
+sum	Differentia event	adding_up
+orthogonal_rows	Differentia event	are_perpendicular_to_each_other
+replicaterow	Differentia quality	vector
+zero	Differentia quality	element
+conjugate_transpose	Differentia event	take_the_complex_conjugate
+addmonoidhom	Differentia quality	preserving_addition_and_zero
+fintype.card	Differentia quality	finite_set
+decidability	Differentia event	being_able_to_definitively_say_'yes'_or_'no'
+pairwise	Differentia quality	relation
+supremum_of_sets	Differentia quality	collection_of_sets
+replicatecol	Differentia event	repeating_it_as_columns
+zero_vector	Differentia quality	equivalent
+map	Differentia quality	each_item_in_a_list
+linearmap	Differentia event	maps_vectors_to_vectors
+diagonal_matrix	Differentia quality	main_diagonal
+function	Supertype	rule

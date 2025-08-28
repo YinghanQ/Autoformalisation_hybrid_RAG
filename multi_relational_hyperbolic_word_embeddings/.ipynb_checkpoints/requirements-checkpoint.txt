@@ -1,0 +1,12 @@
+numpy
+torch
+argparse
+jsonpickle
+jsonlines
+typing
+dynaconf
+tqdm
+nltk
+transformers
+sentence-transformers
+git+https://github.com/dscarvalho/saf.git#egg=saf

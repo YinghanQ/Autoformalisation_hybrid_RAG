@@ -1,0 +1,44 @@
+addcommsemigroup	Differentia event	add_elements_together
+map	Differentia event	applying_a_function
+linearmap.range	Differentia quality	of_all_vectors
+linear_map	Differentia event	respects_addition
+linearmap.rank	Differentia quality	dimensions
+addzeroclass	Differentia quality	zero_element
+linearmap	Supertype	function
+absolutevalue	Supertype	measure
+fintype.card	Supertype	size
+absolute_value	Differentia quality	number
+matrix	Supertype	grid
+matrix	Differentia quality	of_numbers_or_symbols
+issymm	Event location	over_its_diagonal
+smulzeroclass	Supertype	structure
+nonunitalcommsemiring	Differentia event	without_a_requirement_for_a_'1'_element
+isdiag	Differentia quality	elements_outside_the_main_diagonal
+unit_matrix	Supertype	matrix
+orthogonal_columns	Event location	vector_space
+zero_matrix	Differentia quality	filled_entirely_with_zeros
+permutation	Differentia quality	elements
+mulzerooneclass	Differentia quality	zero_and_one_elements
+block_matrix	Differentia quality	larger
+addzeroclass	Supertype	structure
+permutation	Differentia event	shuffle
+function	Differentia quality	input
+decidableeq	Differentia event	determine_if_two_elements_are_equal_or_not
+addmonoidhom	Differentia event	preserves_the_addition_operation
+kronecker_product	Differentia quality	to_combine_two_matrices_into_a_larger_matrix
+permutation	Differentia event	reorder
+diagonal_matrix	Differentia quality	zeros
+unit_matrix	Differentia event	multiplies_with_it_to_yield_the_identity_matrix
+subtractionmonoid	Differentia event	follows_specific_algebraic_rules
+matrix_power	Differentia quality	of_a_matrix
+single	Supertype	matrix
+star	Differentia quality	conjugate
+diagonal	Supertype	elements
+star_operation	Supertype	transformation
+matrix_subtraction	Differentia event	subtracting_corresponding_elements
+subtractionmonoid	Differentia quality	subtraction_operations
+mulzerooneclass	Supertype	category
+inequality_of_vectors	Supertype	vector
+orthogonal_columns	Supertype	columns
+conjugate_transpose_(aᴴ)	Differentia event	taking_the_complex_conjugate
+isdiag	Differentia quality	non-diagonal_elements

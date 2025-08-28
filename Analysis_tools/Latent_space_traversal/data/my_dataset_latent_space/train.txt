@@ -1,0 +1,297 @@
+replicatecol	Purpose	turns_a_vector_into_a_matrix
+unit_matrix	Associated fact	there_exists_another_matrix
+conjugate_transpose	Differentia event	flips_a_matrix_over_its_diagonal
+blockdiagonal	Differentia quality	smaller_matrices_on_its_diagonal
+submatrix	Origin location	from_a_larger_one
+issymm	Supertype	matrix
+matrix	Purpose	used_in_various_mathematical_computations
+blockdiagonal	Supertype	matrix
+transpose	Origin location	over_its_diagonal
+projection_map	Differentia event	extracts_a_specific_component
+kernel_of_a_linear_map	Differentia quality	inputs
+non-negativity	Supertype	number
+absolute_value	Supertype	measure
+non-negativity	Differentia event	zero_or_positive
+linearmap	Associated fact	maintaining_the_operations_of_vector_addition_and_scalar_multiplication
+conjugation_by_a_unit_matrix	Supertype	transforming
+smulzeroclass	Differentia event	allows_multiplying_a_scalar_with_a_matrix
+decidability	Purpose	to_a_question
+matrix	Purpose	to_represent_linear_transformations
+conjugate_transpose_(aᴴ)	Differentia quality	of_each_element
+zero_vector	Differentia quality	no_magnitude_or_direction
+non-negative_vector	Supertype	vector
+conjugate_transpose	Differentia event	flip_the_matrix_over_its_diagonal
+projection_map	Supertype	function
+diagonal_matrix	Supertype	matrix
+kernel_of_a_linear_map	Supertype	collection
+diagonal_matrix	Differentia quality	diagonal
+linearmap.rank	Differentia quality	linear_map
+orthogonal_rows	Associated fact	they_are_perpendicular
+unit_matrix	Differentia event	can_be_inverted
+replicatecol	Supertype	matrix
+subsingleton	Differentia event	are_indistinguishable
+trace	Origin location	matrix
+nonunitalcommsemiring	Differentia event	multiplication_can_be_done_in_any_order
+zero_vector	Supertype	vector
+matrix_multiplication	Purpose	to_form_a_new_matrix
+zero_matrix	Supertype	matrix
+submatrix	Differentia quality	smaller
+block_matrix	Supertype	matrix
+isdiag	Differentia event	non-diagonal_elements_are_zero
+transpose	Differentia event	flipping
+finset	Supertype	set
+isdiag	Supertype	matrix
+block_matrix	Supertype	matrix
+sum	Origin location	in_a_list
+conjtranspose	Supertype	matrix
+transpose	Differentia event	flipping
+pairwise	Supertype	condition
+diagonal_matrix	Supertype	matrix
+matrix-vector_multiplication	Purpose	to_transform_it
+conjugate_transpose	Event location	over_its_diagonal
+star	Differentia event	operation
+mulzerooneclass	Differentia quality	types
+linearmap.single	Differentia quality	with_a_single_non-zero_element
+conjugation_by_a_unit_matrix	Differentia event	surrounding_it_with_a_unit_matrix_and_its_inverse
+isempty	Differentia event	has_no_elements
+linear_map	Differentia event	respects_scalar_multiplication
+diagonal_matrix	Differentia event	has_non-zero_values
+mulzerooneclass	Differentia event	support_multiplication
+permutation	Supertype	way
+function	Differentia quality	output
+dotproduct	Differentia event	multiply_two_vectors_to_get_a_single_number
+determinant	Supertype	number
+block_matrix	Differentia quality	smaller_matrices
+vector	Event location	space
+diagonal_matrix	Differentia event	can_be_non-zero
+isempty	Supertype	concept
+matrix	Differentia event	arranged_in_rows_and_columns
+projection_map	Origin location	from_a_vector
+zero	Supertype	concept
+diagonal_matrix	Differentia event	have_non-zero_elements
+conjugate_transpose	Differentia event	taking
+diagonal	Differentia quality	non-zero
+linear_map	Supertype	function
+orthogonal_columns	Differentia quality	perpendicular
+addmonoidhom	Differentia quality	between_two_algebraic_structures
+matrix	Purpose	to_solve_systems_of_linear_equations
+nonunitalcommsemiring	Supertype	structure
+vector	Differentia event	represent
+fromblocks	Supertype	matrix
+decidableeq	Supertype	type
+trace	Differentia quality	main_diagonal
+kronecker_product	Supertype	way
+dot_product	Purpose	to_get_a_scalar
+negation_of_a_matrix	Differentia event	changing_the_sign
+orthogonal_rows	Differentia quality	perpendicular
+dotproduct	Purpose	to_get_a_single_number
+submatrix	Supertype	matrix
+zero	Origin location	given_type
+conjugate_transpose	Differentia event	flip_the_vector
+absolute_value	Differentia event	ignoring_its_sign
+dot_product	Purpose	to_get_a_single_number
+diagonal_matrix	Differentia quality	diagonal_elements
+conjugate_transpose	Supertype	matrix_operation
+matrix	Differentia event	used_to_represent_linear_transformations_and_solve_systems_of_linear_equations
+finset	Differentia quality	finite_number_of_elements
+addcommsemigroup	Supertype	structure
+determinant	Differentia quality	orientation
+linearmap	Differentia quality	vectors
+diagonal_matrix	Supertype	matrix
+star	Differentia quality	vector
+matrix	Differentia quality	numbers
+transpose	Event location	over_its_diagonal
+star_operation	Differentia quality	matrix
+subtractionmonoid	Differentia quality	operation
+matrix	Differentia quality	grid-like
+linearmap.single	Supertype	function
+multiset	Differentia quality	elements_can_appear_more_than_once
+nonunitalcommsemiring	Differentia quality	ring-like
+blockdiagonal'	Differentia quality	given_matrices
+diagonal_matrix	Supertype	matrix
+matrix_power	Differentia event	repeated_multiplication
+fintype	Differentia quality	finite_set_of_elements
+block_matrix	Differentia event	arranged_in_a_grid
+matrix_power	Supertype	multiplication
+addcommsemigroup	Differentia event	addition_is_both_associative_and_commutative
+projection_map	Differentia quality	component
+conjugate_transpose	Differentia quality	complex_conjugate
+inequality_of_vectors	Differentia event	less_than_or_equal_to_another
+linearmap.rank	Supertype	rank
+multiset	Supertype	set
+matrix_addition	Differentia quality	two_matrices
+vector	Differentia quality	direction_and_magnitude
+matrix_addition	Supertype	combining
+linearmap.rank	Differentia event	measures
+vector-matrix_product	Differentia event	combining
+absolutevalue	Differentia quality	size_or_magnitude
+transpose	Differentia quality	matrix
+dot_product	Differentia quality	multiply_two_vectors
+star_operation	Differentia event	flips
+conjugate_transpose	Differentia event	takes_the_complex_conjugate_of_each_element
+conjugate_transpose	Differentia quality	of_each_element
+dot_product	Supertype	way
+symmetric_matrix	Differentia event	looks_the_same_when_flipped_over_its_diagonal
+transpose_of_a_matrix	Origin location	over_its_diagonal
+addzeroclass	Differentia quality	addition
+block_matrix	Differentia quality	large
+diagonal_matrix	Differentia quality	main_diagonal
+conjugate_transpose	Differentia quality	diagonal
+conjugate_transpose	Differentia event	flipping
+determinant	Differentia quality	matrix's_scaling_factor
+dot_product	Differentia quality	multiply_two_vectors
+fromblocks	Differentia event	placing_them_in_blocks
+conjugate_transpose	Differentia event	take_the_complex_conjugate_of_each_element
+matrix_map	Differentia event	transform_each_element
+subtractionmonoid	Associated fact	similar_to_a_monoid
+vector-matrix_product	Differentia quality	another_vector
+absolute_value	Differentia quality	size
+vector	Supertype	sequence_of_numbers
+conjugate_transpose_(aᴴ)	Differentia event	taking_the_transpose
+conjugation_by_a_unit_matrix	Differentia quality	matrix
+submatrix	Differentia event	derived_from_a_larger_one_by_removing_certain_rows_and_columns
+linearmap.range	Supertype	collection
+inequality_of_vectors	Differentia quality	component-wise
+issymm	Differentia event	flipping_it_over_its_diagonal_does_not_change_it
+replicaterow	Supertype	matrix
+supremum_of_sets	Supertype	least_upper_bound
+smulzeroclass	Differentia event	ensuring_that_multiplying_by_zero_results_in_zero
+isempty	Differentia quality	type
+absolute_value	Differentia quality	magnitude
+injective_function	Differentia event	never_maps_different_inputs_to_the_same_output
+fromblocks	Differentia quality	smaller_matrices
+linearmap.rank	Differentia quality	output
+subtractionmonoid	Supertype	structure
+vector	Supertype	sequence
+zero	Differentia quality	zero_value
+matrix	Differentia quality	of_numbers
+diagonal	Associated fact	all_other_elements_are_zero
+trace	Supertype	numbers
+block_matrix	Differentia quality	smaller_matrices
+blockdiagonal	Differentia quality	zeros_elsewhere
+vector	Event location	in_space
+star_operation	Differentia event	conjugates
+orthogonal_rows	Differentia event	dot_product_is_zero
+addmonoidhom	Supertype	structure
+diagonal	Event location	from_the_top_left_to_the_bottom_right_of_a_square_matrix
+conjtranspose	Differentia event	obtained_by_taking_the_transpose_and_then_taking_the_complex_conjugate_of_each_element
+matrix	Supertype	structure
+kernel_of_a_linear_map	Differentia event	result_in_zero
+matrix	Supertype	arrangement
+scalar_multiplication	Differentia event	by_the_same_number
+fin_0	Differentia quality	empty_set
+dot_product	Supertype	way
+replicaterow	Differentia event	repeating_it_as_rows
+zero_matrix	Differentia quality	filled_entirely_with_zeros
+orthogonal_columns	Differentia quality	perpendicular
+single	Differentia quality	one_non-zero_element
+vector-matrix_product	Differentia quality	vector
+star_operation	Differentia quality	vector
+blockdiagonal	Supertype	matrix
+vector-matrix_product	Differentia quality	matrix
+linearmap.range	Differentia event	obtained_by_applying_the_linear_map_to_some_input_vector
+subsingleton	Differentia quality	elements
+zero_matrix	Differentia quality	zeros
+conjugate_transpose	Supertype	matrix
+linearmap.single	Differentia event	creates_a_vector
+pairwise	Differentia quality	pairs_of_elements
+matrix	Supertype	grid
+sum	Differentia quality	elements
+subsingleton	Supertype	type
+zero	Supertype	type
+conjtranspose	Differentia quality	conjugate
+scalar_multiplication	Supertype	scaling
+scalar_multiplication	Differentia quality	elements_of_a_matrix
+matrix_map	Purpose	using_a_specific_function
+conjugate_transpose	Supertype	matrix_operation
+zero_vector	Differentia quality	number_zero
+linearmap.single	Event location	at_a_specified_position
+diagonal	Supertype	line
+addcommsemigroup	Differentia event	add_elements_together
+map	Differentia event	applying_a_function
+linearmap.range	Differentia quality	of_all_vectors
+linear_map	Differentia event	respects_addition
+linearmap.rank	Differentia quality	dimensions
+addzeroclass	Differentia quality	zero_element
+linearmap	Supertype	function
+absolutevalue	Supertype	measure
+fintype.card	Supertype	size
+absolute_value	Differentia quality	number
+matrix	Supertype	grid
+matrix	Differentia quality	of_numbers_or_symbols
+issymm	Event location	over_its_diagonal
+smulzeroclass	Supertype	structure
+nonunitalcommsemiring	Differentia event	without_a_requirement_for_a_'1'_element
+isdiag	Differentia quality	elements_outside_the_main_diagonal
+unit_matrix	Supertype	matrix
+orthogonal_columns	Event location	vector_space
+zero_matrix	Differentia quality	filled_entirely_with_zeros
+permutation	Differentia quality	elements
+mulzerooneclass	Differentia quality	zero_and_one_elements
+block_matrix	Differentia quality	larger
+addzeroclass	Supertype	structure
+permutation	Differentia event	shuffle
+function	Differentia quality	input
+decidableeq	Differentia event	determine_if_two_elements_are_equal_or_not
+addmonoidhom	Differentia event	preserves_the_addition_operation
+kronecker_product	Differentia quality	to_combine_two_matrices_into_a_larger_matrix
+permutation	Differentia event	reorder
+diagonal_matrix	Differentia quality	zeros
+unit_matrix	Differentia event	multiplies_with_it_to_yield_the_identity_matrix
+subtractionmonoid	Differentia event	follows_specific_algebraic_rules
+matrix_power	Differentia quality	of_a_matrix
+single	Supertype	matrix
+star	Differentia quality	conjugate
+diagonal	Supertype	elements
+star_operation	Supertype	transformation
+matrix_subtraction	Differentia event	subtracting_corresponding_elements
+subtractionmonoid	Differentia quality	subtraction_operations
+mulzerooneclass	Supertype	category
+inequality_of_vectors	Supertype	vector
+orthogonal_columns	Supertype	columns
+conjugate_transpose_(aᴴ)	Differentia event	taking_the_complex_conjugate
+isdiag	Differentia quality	non-diagonal_elements
+injective_function	Supertype	function
+addmonoidhom	Supertype	function
+negation_of_a_matrix	Differentia quality	each_of_its_entries
+3x3_matrix	Differentia quality	three_rows_and_three_columns
+isdiag	Supertype	matrix
+matrix_multiplication	Differentia event	summing_the_products_of_their_rows_and_columns
+vector	Differentia quality	numbers
+symmetric_matrix	Supertype	matrix
+matrix_multiplication	Supertype	matrix
+diagonal	Differentia quality	numbers
+absolutevalue	Differentia quality	elements_in_a_ring
+zero_matrix	Supertype	matrix
+transpose_of_a_matrix	Differentia event	flipping
+dotproduct	Supertype	way
+addcommsemigroup	Differentia quality	in_any_order
+fintype	Supertype	type
+blockdiagonal'	Differentia event	placing_given_matrices_along_the_diagonal_and_zeros_elsewhere
+zero_matrix	Supertype	matrix
+matrix	Differentia quality	grid-like
+matrix-vector_multiplication	Differentia event	applying_a_matrix_to_a_vector
+matrix_addition	Differentia event	adding_their_corresponding_elements
+isdiag	Differentia event	are_zero
+addcommsemigroup	Supertype	structure
+kernel_of_a_linear_map	Differentia event	applied_to_a_linear_transformation
+non-negative_vector	Differentia quality	no_negative_elements
+addmonoidhom	Differentia quality	between_two_algebraic_structures
+subtractionmonoid	Supertype	set
+fintype.card	Differentia quality	number_of_elements
+sum	Differentia event	adding_up
+orthogonal_rows	Differentia event	are_perpendicular_to_each_other
+replicaterow	Differentia quality	vector
+zero	Differentia quality	element
+conjugate_transpose	Differentia event	take_the_complex_conjugate
+addmonoidhom	Differentia quality	preserving_addition_and_zero
+fintype.card	Differentia quality	finite_set
+decidability	Differentia event	being_able_to_definitively_say_'yes'_or_'no'
+pairwise	Differentia quality	relation
+supremum_of_sets	Differentia quality	collection_of_sets
+replicatecol	Differentia event	repeating_it_as_columns
+zero_vector	Differentia quality	equivalent
+map	Differentia quality	each_item_in_a_list
+linearmap	Differentia event	maps_vectors_to_vectors
+diagonal_matrix	Differentia quality	main_diagonal
+function	Supertype	rule
